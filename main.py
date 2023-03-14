@@ -6,6 +6,11 @@ import matplotlib.pyplot as plt
 
 from utils.mapper import map_residence_status, map_occupation, map_user_mb
 
+st.set_page_config(
+        page_title="KewScore",
+        page_icon=':memo:'
+)
+
 with st.container():
     st.title('KewScore')
 
